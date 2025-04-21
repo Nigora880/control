@@ -1,0 +1,52 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v22-latin-regular.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v22-latin-500.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v22-latin-600.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v22-latin-700.woff2') format('woff2'); 
+  }
+  
+  *{
+    box-sizing: border-box;
+}
+.containers{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.product-container{
+    font-family: "Poppins", sans-serif;
+    background-image: url(../images/Bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 389.08740234375px;
+    rotate: -180;
+}
+.quick-section{
+  background-image: url(../images/bg\ 2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

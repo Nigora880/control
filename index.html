@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Product</title>
+    <style type="text/tailwindcss">
+        @layer utilities {}
+    </style>
+</head>
+<body>
+    <!-- Header part -->
+       <header>
+        <div class="containers py-[17px]">
+            <div class="flex justify-around items-center">
+               <a class="inline-block" href="./index.html"> <img src="./img/logo img.svg" alt="img"></a>
+    
+                    <button class=" flex sm:hidden ">
+                            <img src="./img/menu.svg" alt="img">
+                       </button>
+                    <nav class="hidden lg:flex gap-[15px]">
+                        <a class="hover:text-[rgba(34,52,61,1)] hover:font-semibold duration-300 text-[rgba(34,52,61,1)] font-medium text-[16px] leading-[28px]" href="/">Product</a>
+                        <a class="hover:text-[rgba(34,52,61,1)] hover:font-semibold duration-300 text-[rgba(34,52,61,1)] font-medium text-[16px] leading-[28px]" href="/">Customers</a>
+                        <a class="hover:text-[rgba(34,52,61,1)] hover:font-semibold duration-300 text-[rgba(34,52,61,1)] font-medium text-[16px] leading-[28px]" href="/">Pricing</a>
+                        <a class="hover:text-[rgba(34,52,61,1)] hover:font-semibold duration-300 text-[rgba(34,52,61,1)] font-medium text-[16px] leading-[28px]" href="/">Resources</a>
+                    </nav>
+                     <div class="hidden sm:flex gap-[24px]">
+                        <button class="hover:bg-[rgba(2,137,122,1)] hover:text-[rgba(255,255,255,1)] duration-300 bg-transparent rounded-[4px] border-[1px] border-[rgba(188,208,229,1)] px-[25px] py-[10px] text-[rgba(23,58,86,1)] font-semibold text-[16px]">
+                            Sign In
+                        </button>
+                        <button class="hover:bg-transparent rounded-[4px] hover:border-[1px] hover:border-[rgba(188,208,229,1)] duration-300 bg-[rgba(2,137,122,1)] px-[25px] py-[10px] text-[rgba(255,255,255,1)] hover:text-[rgba(23,58,86,1)] font-semibold text-[16px]">
+                            Sign up
+                        </button>
+                        <button>
+                            <img src="./img/mode img.svg" alt="img">
+                        </button>
+                     </div>
+            </div>
+        </div>    
+    
+       </header>
+    <!-- Hero -->
+     
+     <main>
+        <section>
+            <div class="containers  pt-[25px] sm:pb-[114px] pb-[94px]">
+               <div class="lg:flex flex-col justify-around lg:flex-row-reverse">
+                <div class="sm:hidden pt-[29px] flex justify-center">
+                    <img src="./images/hero-mobile/amico.png" alt="img">
+                   </div>
+                   <div class="hidden justify-start sm:justify-center sm:flex">
+                    <img src="./images/social-media/amico.png" alt="img">
+                   </div>
+                   <div class="sm:mt-[145px] mt-[10px] sm:text-start sm:w-[518px] text-center mx-auto w-[369px] pl-[24px] pr-[18px]">
+                    <h2 class="font-bold text-[36px] leading-[60px] text-[rgba(34,52,61,1)] mb-[18px]">Work at the speed
+                        of thought</h2>
+                        <p class="font-normal text-[18px] leading-[28px] text-[rgba(34,52,61,1)] mb-[32px]">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+                        <div class="w-[335px] sm:justify-start justify-center flex gap-[28px] pb-[99px]">
+                          <button class="duration-300 hover:bg-transparent hover:text-[rgba(2,137,122,1)] rounded-[4px] px-[15px] py-[14px] bg-[rgba(2,137,122,1)] font-bold text-[16px] text-[rgba(255,255,255,1)]">
+                              Get started
+                          </button>
+                          <a  class="duration-300 hover:bg-[rgba(2,137,122,1)] hover:text-[rgba(255,255,255,1)]  rounded-[4px] flex gap-[3px] px-[15px] py-[14px] bg-transparent font-semibold text-[16px] text-[rgba(2,137,122,1)]" href="#">
+                            <svg width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2349 8.5243C16.9882 8.95667 16.9882 10.0433 16.2349 10.4757L2.19748 18.5328C1.44749 18.9633 0.512455 18.4219 0.512455 17.5571V1.44287C0.512455 0.578108 1.44749 0.0366851 2.19748 0.467164L16.2349 8.5243Z" fill="currentColor"/>
+                              </svg>
+                              <span>Watch the Video</span>
+                          </a>
+                         </div>
+                      </div>
+               </div>
+            </div>
+        </section>
+        <!-- Product part -->
+      <section class="product-container flex-col lg:h-[590px] sm:h-[800px] h-[1150px]">
+          <div class="containers pt-[114px] ">
+            <div class="lg:w-[530px] w-[331px] mx-auto">
+              <h2 class="mb-[50px] text-center text-[rgba(34,52,61,1)] text-[32px] font-bold">Product  was Built Specifically for You</h2>
+            </div>
+             
+            <div class=" ">
+              <div class="sm:flex sm:justify-center ">
+                <ul class="lg:flex-nowrap lg:flex lg:w-[1095px] lg:gap-[48px] sm:flex sm:flex-wrap sm:gap-[40px] sm:w-[600px]">
+                  <li class=" lg:text-start text-center w-[240px]  mx-auto mb-[32px]" >
+                    <svg class="lg:mx-0 mx-auto mb-[24px]" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_16_486)">
+                      <rect y="0.967773" width="50" height="50" rx="19" fill="#02897A"/>
+                      <path d="M29.1161 27.566L19.9732 18.4231C19.8661 18.3071 19.7232 18.2535 19.5714 18.2535C19.5 18.2535 19.4196 18.2713 19.3571 18.2981C19.1429 18.3874 19 18.5928 19 18.8249V32.2535C19 32.4856 19.1429 32.691 19.3571 32.7803C19.4196 32.8071 19.5 32.8249 19.5714 32.8249C19.7232 32.8249 19.8661 32.7624 19.9732 32.6553L22.7589 29.8696L24.4643 33.9053C24.5893 34.191 24.9196 34.3338 25.2143 34.2088L26.7946 33.5392C27.0804 33.4142 27.2232 33.0838 27.0982 32.7892L25.3036 28.5392H28.7143C28.9464 28.5392 29.1518 28.3963 29.2411 28.1821C29.3304 27.9767 29.2857 27.7267 29.1161 27.566Z" fill="white"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_16_486">
+                      <rect width="51" height="50" fill="white" transform="translate(0 0.967773)"/>
+                      </clipPath>
+                      </defs>
+
+                      </svg>
+                    <strong class="mb-[8px] text-[rgba(34,52,61,1)] font-semibold text-[22px]">First click tests</strong>
+                    <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px]">While most people enjoy casino gambling,</p>
+                  </li>
+                  <li class="lg:text-start text-center w-[240px] mx-auto mb-[32px]" >
+                    <svg  class="lg:mx-0 mx-auto mb-[24px]" width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_16_494)">
+                      <rect y="0.967773" width="50" height="50" rx="19" fill="#4D8DFF"/>
+                      <path d="M25.4821 25.6106L26.6518 26.1553L28.3929 25.6374V24.4231C28.3929 22.3606 26.6518 20.7088 24.5714 20.7088C22.5 20.7088 20.75 22.3517 20.75 24.3963V29.9321C20.75 30.441 20.3393 30.8428 19.8393 30.8428C19.3393 30.8428 18.9286 30.441 18.9286 29.9321V27.5928H16C16 29.941 16 29.9678 16 29.9678C16 32.0838 17.7143 33.7981 19.8304 33.7981C21.9286 33.7981 23.6607 32.1106 23.6607 30.0213V24.5571C23.6607 24.0571 24.0714 23.6463 24.5714 23.6463C25.0714 23.6463 25.4821 24.0571 25.4821 24.5571V25.6106ZM30.2143 27.5928V30.0481C30.2143 30.5481 29.8036 30.9499 29.3036 30.9499C28.8036 30.9499 28.3929 30.5481 28.3929 30.0481V27.6374L26.6518 28.1553L25.4821 27.6106V30.0035C25.4821 32.1017 27.2054 33.7981 29.3125 33.7981C31.4286 33.7981 33.1429 32.0838 33.1429 29.9678C33.1429 29.9678 33.1429 29.941 33.1429 27.5928H30.2143Z" fill="white"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_16_494">
+                      <rect width="50" height="50" fill="white" transform="translate(0 0.967773)"/>
+                      </clipPath>
+                      </defs>
+                      </svg>
+                      
+                    <strong class="mb-[8px] text-[rgba(34,52,61,1)] font-semibold text-[22px]">Design surveys</strong>
+                    <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px]">Sports betting, lottery and bingo playing for the fun</p>
+                  </li>
+                  <li class="lg:text-start text-center w-[240px] mx-auto mb-[32px]" >
+                    <svg class="lg:mx-0 mx-auto mb-[24px]" width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_16_502)">
+                      <rect y="0.967773" width="50" height="50" rx="19" fill="#740A76"/>
+                      <path d="M25 34.1106C25.1429 34.1106 25.2857 34.0571 25.3929 33.9499L30.9554 28.5928C31.0357 28.5124 33 26.7178 33 24.5749C33 21.9588 31.4018 20.3963 28.7321 20.3963C27.1696 20.3963 25.7054 21.6285 25 22.3249C24.2946 21.6285 22.8304 20.3963 21.2679 20.3963C18.5982 20.3963 17 21.9588 17 24.5749C17 26.7178 18.9643 28.5124 19.0357 28.5749L24.6071 33.9499C24.7143 34.0571 24.8571 34.1106 25 34.1106Z" fill="white"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_16_502">
+                      <rect width="50" height="50" fill="white" transform="translate(0 0.967773)"/>
+                      </clipPath>
+                      </defs>
+                      </svg>
+                      
+                    <strong class="mb-[8px] text-[rgba(34,52,61,1)] font-semibold text-[22px]">Preference tests</strong>
+                    <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px]">The Myspace page defines the individual.</p>
+                  </li>
+                  <li class="lg:text-start text-center w-[240px] mx-auto mb-[32px]" >
+                    <svg class="lg:mx-0 mx-auto mb-[24px]" width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_16_510)">
+                      <rect y="0.967773" width="50" height="50" rx="19" fill="#F03E3D"/>
+        
+                      <path d="M30.5714 20.3963H31.4286C31.5893 20.3963 31.7143 20.2713 31.7143 20.1106V19.5392C31.7143 19.3785 31.5893 19.2535 31.4286 19.2535H18.2857C18.125 19.2535 18 19.3785 18 19.5392V20.1106C18 20.2713 18.125 20.3963 18.2857 20.3963H19.1429C19.1429 23.6999 20.7232 26.0928 22.4732 27.2535C20.7232 28.4142 19.1429 30.8071 19.1429 34.1106H18.2857C18.125 34.1106 18 34.2356 18 34.3963V34.9678C18 35.1285 18.125 35.2535 18.2857 35.2535H31.4286C31.5893 35.2535 31.7143 35.1285 31.7143 34.9678V34.3963C31.7143 34.2356 31.5893 34.1106 31.4286 34.1106H30.5714C30.5714 30.8071 28.9911 28.4142 27.2411 27.2535C28.9911 26.0928 30.5714 23.6999 30.5714 20.3963ZM29.4286 20.3963C29.4286 21.6999 29.1339 22.8517 28.6696 23.8249H21.0446C20.5804 22.8517 20.2857 21.6999 20.2857 20.3963H29.4286ZM28.9196 31.2535H20.7946C21.4554 29.5303 22.6429 28.3071 23.8304 27.8249H25.8839C27.0714 28.3071 28.2589 29.5303 28.9196 31.2535Z" fill="white"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_16_510">
+                      <rect width="50" height="50" fill="white" transform="translate(0 0.967773)"/>
+                      </clipPath>
+                      </defs>
+                      </svg>
+                      
+                    <strong class="mb-[8px] text-[rgba(34,52,61,1)] font-semibold text-[22px]">Five second tests</strong>
+                    <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px]">Personal choices and the overall personality of the person. </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="flex justify-center">
+                <button class="duration-300 px-[34px] py-[15px] hover:bg-transparent hover:text-[rgba(2,137,122,1)]
+                hover:border-[rgba(2,137,122,1)] rounded-[4px] border-[1px] border-transparent bg-[rgba(2,137,122,1)] font-bold text-[16px] text-[rgba(255,255,255,1)] ">
+                  SIGN UP NOW
+                </button>
+              </div>
+            </div>
+          </div>
+         </section>
+         <!-- menejment part --> 
+          <section>
+            <div class="containers flex gap-[84px] sm:pt-[150px] pb-[150px]">
+                <div class="lg:items-center justify-between w-[486px]">
+                        <strong class="font-semibold text-[16px] leading-100% text-[rgba(34, 52, 61, 1)] mb-[8px] w-[189px]">Effortless Validation for</strong>
+                        <h2 class="font-bold text-[32px] leading-[100%] text-[rgba(34, 52, 61, 1)] mb-[131px]">Management</h2>      
+                     
+                        <strong class="font-semibold flex flex-col text-[16px] leading-[26px] text-[rgba(34, 52, 61, 1)] mb-[12px] w-[151px]">Accessory makers</strong>
+                        <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[25px]">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                     
+                        <strong class="font-semibold  flex flex-col text-[16px] leading-[26px] text-[rgba(34, 52, 61, 1)] mb-[12px]">Alterationists</strong>
+                        <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[25px]">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                     
+                </div>
+                    <div>
+                       <div class="sm:hidden pt-[100px] flex justify-center "> 
+                        <img src="./images/documents/amico.png" alt="img">
+                    </div>
+                    <div class="hidden justify-start sm:justify-center sm:flex ">
+                        <img src="./img/documents/amico.png" alt="img">
+                    </div>
+                    </div> 
+            </div>
+            <div class="containers flex gap-[94px] sm:pb-[150px] pb-[100px]">
+                  <div>
+                    <div class="sm:hidden pt-[100px] flex justify-center ">
+                       <img src="./images/search-engines/amico.png" alt="img">
+                    </div>
+                    <div class="hidden justify-start sm:justify-center sm:flex">
+                    <img src="./img/search-engines/amico.png" alt="img">
+                    </div>
+                 </div>
+                 <div class="lg:items-center justify-between w-[486px]">
+                    <strong class="font-semibold text-[16px] leading-100% text-[rgba(34, 52, 61, 1)] mb-[8px]">Easier decision making for</strong>
+                    <h2 class="font-bold text-[32px] leading-[100%] text-[rgba(34, 52, 61, 1)] mb-[23px]">Customer Support</h2> 
+                    <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[30px]">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>   
+                    <div class="flex gap-[30px]">
+                        <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="1.45833" y="1.7596" width="32.0833" height="32.0833" rx="12.3958" fill="#FF9900"/>
+                            <rect x="1.45833" y="1.7596" width="32.0833" height="32.0833" rx="12.3958" stroke="white" stroke-width="2.91667"/>
+                            <rect x="1.45833" y="1.7596" width="32.0833" height="32.0833" rx="12.3958" stroke="#FF9900" stroke-width="2.91667"/>
+                            <path d="M25.7657 12.5406C25.4533 12.2215 24.9468 12.2215 24.6343 12.5406L15.0498 22.329L11.3657 18.5665C11.0533 18.2475 10.5468 18.2475 10.2343 18.5665C9.92189 18.8856 9.92189 19.4029 10.2343 19.7219L14.4841 24.0621C14.7964 24.3811 15.3033 24.3809 15.6155 24.0621L25.7657 13.696C26.0781 13.377 26.0781 12.8597 25.7657 12.5406Z" fill="white"/>
+                            </svg>
+                            <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[30px]">Never worry about overpaying for your energy again.  </p>   
+                        </div>
+                            <div class="flex gap-[30px]">
+                                <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1.45833" y="1.7596" width="32.0833" height="32.0833" rx="12.3958" fill="#F03E3D"/>
+                                    <rect x="1.45833" y="1.7596" width="32.0833" height="32.0833" rx="12.3958" stroke="white" stroke-width="2.91667"/>
+                                    <rect x="1.45833" y="1.7596" width="32.0833" height="32.0833" rx="12.3958" stroke="#F03E3D" stroke-width="2.91667"/>
+                                    <path d="M25.7657 12.5406C25.4533 12.2215 24.9468 12.2215 24.6343 12.5406L15.0498 22.329L11.3657 18.5665C11.0533 18.2475 10.5468 18.2475 10.2343 18.5665C9.92189 18.8856 9.92189 19.4029 10.2343 19.7219L14.4841 24.0621C14.7964 24.3811 15.3033 24.3809 15.6155 24.0621L25.7657 13.696C26.0781 13.377 26.0781 12.8597 25.7657 12.5406Z" fill="white"/>
+                                    </svg>                                                                      
+                                    <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[30px]">We will only switch you to energy companies that we </p>   
+                                </div>
+                                    <div class="flex gap-[30px]">
+                                        <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="1.45833" y="1.7596" width="32.0833" height="32.0833" rx="12.3958" fill="#4D8DFF"/>
+                                            <rect x="1.45833" y="1.7596" width="32.0833" height="32.0833" rx="12.3958" stroke="white" stroke-width="2.91667"/>
+                                            <rect x="1.45833" y="1.7596" width="32.0833" height="32.0833" rx="12.3958" stroke="#4D8DFF" stroke-width="2.91667"/>
+                                            <path d="M25.7657 12.5406C25.4533 12.2215 24.9468 12.2215 24.6343 12.5406L15.0498 22.329L11.3657 18.5665C11.0533 18.2475 10.5468 18.2475 10.2343 18.5665C9.92189 18.8856 9.92189 19.4029 10.2343 19.7219L14.4841 24.0621C14.7964 24.3811 15.3033 24.3809 15.6155 24.0621L25.7657 13.696C26.0781 13.377 26.0781 12.8597 25.7657 12.5406Z" fill="white"/>
+                                            </svg>                                            
+                                            <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[30px]">We track the markets daily and know where the savings are. </p>   
+                                        </div>
+                        
+
+                    </div>  
+                 </div>
+            </div>
+            <div class="containers flex gap-[84px] sm:pb-[150px]">
+                <div class="lg:items-center justify-between w-[486px]">
+                        <strong class="font-semibold text-[16px] leading-100% text-[rgba(34, 52, 61, 1)] mb-[8px] w-[189px]">Optimisation for</strong>
+                        <h2 class="font-bold text-[32px] leading-[100%] text-[rgba(34, 52, 61, 1)] mb-[131px]">Collaborative</h2>      
+                        <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[30px]">Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. </p>
+                     
+                        <strong class="font-semibold  flex flex-col text-[16px] leading-[26px] text-[rgba(34, 52, 61, 1)] mb-[12px]">Accessory makers</strong>
+                        <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[25px]">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                        <strong class="font-semibold  flex flex-col text-[16px] leading-[26px] text-[rgba(34, 52, 61, 1)] mb-[12px]">Alterationists</strong>
+                        <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[25px]">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+
+                </div>
+                    <div>
+                       <div class="sm:hidden pt-[100px] flex justify-center "> 
+                        <img src="./img/image-folder/amico.png" alt="img">
+                    </div>
+                    <div class="hidden justify-start sm:justify-center sm:flex ">
+                        <img src="./images/image-folder/amico.png" alt="img">
+                    </div>
+                    </div> 
+            </div>
+          </section>
+          <section class="quick-section">
+            <div class="containers sm:pb-[150px]">
+                <div class="flex flex-col text-center">
+                    <h2 class="font-bold text-[32px] leading-[100%] text-[rgba(34, 52, 61, 1)] mb-[16px]">Quick & Easy Process</h2>
+                    <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[32px]">Do you require some help for your project: Conception workshop,prototyping, marketing strategy, landing page, Ux/UI? </p>
+                </div>
+                <div class="flex gap-[24px]">
+                <div class=" flex gap-[16px] pl-[178px]">
+                <img src="./images/avatar img.png" alt="">
+                <img src="./images/Text1.svg" alt="img">
+                 </div>
+            <div class=" flex gap-[16px] pl-[178px]">
+                <img src="./images/Text2.svg" alt="img">
+                <img src="./images/Avator 2.png" alt="img">
+            </div>
+               </div>
+               <div class="flex gap-[24px]">
+            <div class=" flex gap-[16px] pl-[178px]">
+                <img src="./images/Text3.svg" alt="img">
+                <img src="./images/avator3.png" alt="img">
+                
+            </div>
+            <div class="flex gap-[16px]">
+                <div class=" flex gap-[16px] pl-[178px]">
+                    <img src="./images/Avator4.png" alt="img">
+                <img src="./images/Text4.svg" alt="img">
+                </div>
+             </div>
+            </div>
+            <div class="flex justify-center pt-[48px]">
+            <button class="duration-300 px-[34px] py-[15px] hover:bg-transparent hover:text-[rgba(2,137,122,1)]
+                hover:border-[rgba(2,137,122,1)] rounded-[4px] border-[1px] border-transparent bg-[rgba(2,137,122,1)] font-bold text-[16px] text-[rgba(255,255,255,1)] ">
+                Contact our expert
+                </button>
+            </div>
+        </div>
+          </section>
+          <section>
+            <div class="containers pb-[270px]">
+                <div class="flex-col">
+                    <h2 class="font-bold text-[34px] leading-[100%] text-[rgba(34, 52, 61, 1)] mb-[8px] text-rgba(2, 137, 122, 1)">Contents Strategies</h2>      
+                    <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[33px] text-rgba(2, 137, 122, 1)">We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>  
+                </div>
+                <div class="flex gap-[33px] text-center justify-center">
+            <div class=" flex flex-col w-[348px] h-[359px]">
+                <img class="w-[348px] h-[185px] pb-[24px] " src="./images/strategies img.png" alt="img">
+                <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[12px]">By <span class="font-bold text-[16px] ">Wahid Ari |</span> 03 March 2019 </p> 
+                 <h3 class="font-bold text-[24px] leading-[40px] text-[rgba(34,52,61,1)]">Increasing Prosperity With Positive Thinking</h3>
+            </div>
+            <div class=" flex flex-col w-[348px] h-[359px]">
+                <img class="w-[348px] h-[185px] pb-[24px] " src="./images/strategies img2.png" alt="img">
+                <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[12px]">By <span class="font-bold text-[16px] ">Wahid Ari |</span> 03 March 2019 </p> 
+                 <h3 class="font-bold text-[24px] leading-[40px] text-[rgba(2, 137, 122, 1)]">Motivation Is The First Step To Success</h3>
+            </div>
+            <div class=" flex flex-col w-[348px] h-[359px]">
+                <img class="w-[348px] h-[185px] pb-[24px] " src="./images/strategies img3.png" alt="img">
+                <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[12px]">By <span class="font-bold text-[16px] ">Wahid Ari |</span> 03 March 2019 </p> 
+                 <h3 class="font-bold text-[24px] leading-[40px] text-[rgba(34,52,61,1)]">Success Steps For Your Personal Or Business</h3>
+            </div>
+               </div>
+            </div>
+          </section>
+          <section>
+                      <div class="containers">
+                          <div>
+                              <div class="flex flex-col items-center gap-[8px]">
+                                  <h2 class="font-bold text-[34px] text-[#22343D]">Price Table</h2>
+                                  <p class="font-medium text-[16px] text-[#22343D]">We offer competitive price</p>
+                              </div>
+          
+                              <div class="flex justify-between pt-[50px] pb-[150px]">
+                                  <div class="w-[322px] rounded-[8px] flex flex-col items-center shadow-lg">
+                                      <div class="flex flex-col gap-[8px]">
+                                          <h3 class="font-bold text-[24px] text-[#22343D] pt-[24px] flex justify-center">Free</h3>
+                                          <p class="font-normal text-[16px] text-[#22343D]">Brief price description</p>
+                                      </div>
+                                      <div class="flex items-center gap-[8px]">
+                                          <span class="font-bold text-[76px] text-[#02897A] pt-[20px]">0</span>
+                                          <div class="flex flex-col">
+                                              <span class="font-bold text-[24px] text-[#02897A]">$</span>
+                                              <span class="font-normal text-[16px] text-[#AFAFAF]">Per / month</span>
+                                          </div>
+                                      </div>
+                                      <div class="flex flex-col gap-[16px] pt-[20px]">
+                                          <p class="font-medium text-[16px] text-[#22343D]">Only 2 Operators</p>
+                                          <p class="font-medium text-[16px] text-[#22343D]">Notifications</p>
+                                          <p class="font-medium text-[16px] text-[#22343D]">Landing Pages</p>
+                                      </div>
+                                      <button class="w-[140px] h-[44px] bg-[#02897A] border-[1px] border-[#02897A] rounded-[8px] text-white mt-[38px] font-semibold text-[18px] mb-[32px] hover:border-[1px] border-[#02897A] hover:text-[#02897A] hover:bg-transparent transition-all duration-300">Order Now</button>
+                                  </div>
+          
+                                  <div class="w-[322px] rounded-[8px] flex flex-col items-center shadow-lg ">
+                                      <div class="flex flex-col gap-[8px]">
+                                          <h3 class="font-bold text-[24px] text-[#22343D] pt-[24px] flex justify-center">Standard</h3>
+                                          <p class="font-normal text-[16px] text-[#22343D]">Brief price description</p>
+                                      </div>
+                                      <div class="flex items-center gap-[8px]">
+                                          <span class="font-bold text-[76px] text-[#02897A] pt-[20px]">5</span>
+                                          <div class="flex flex-col">
+                                              <span class="font-bold text-[24px] text-[#02897A]">$</span>
+                                              <span class="font-normal text-[16px] text-[#AFAFAF]">Per / month</span>
+                                          </div>
+                                      </div>
+                                      <div class="flex flex-col gap-[16px] pt-[20px]">
+                                          <p class="font-medium text-[16px] text-[#22343D]">5+ Operators</p>
+                                          <p class="font-medium text-[16px] text-[#22343D]">Notifications</p>
+                                          <p class="font-medium text-[16px] text-[#22343D]">Landing Pages</p>
+                                      </div>
+                                      <button class="w-[140px] h-[44px] bg-[#02897A] border-[1px] border-[#02897A] rounded-[8px] text-white mt-[38px] font-semibold text-[18px] mb-[32px]hover:border-[1px] border-[#02897A] hover:text-[#02897A] hover:bg-transparent transition-all duration-300">Order Now</button>
+                                  </div>
+          
+                               <div class="w-[322px] rounded-[8px] flex flex-col items-center shadow-lg">
+                                      <div class="flex flex-col gap-[8px]">
+                                          <h3 class="font-bold text-[24px] text-[#22343D] pt-[24px] flex justify-center">Premium</h3>
+                                          <p class="font-normal text-[16px] text-[#22343D]">Brief price description</p>
+                                      </div>
+                                      <div class="flex items-center gap-[8px]">
+                                          <span class="font-bold text-[76px] text-[#02897A] pt-[20px]">10</span>
+                                          <div class="flex flex-col">
+                                              <span class="font-bold text-[24px] text-[#02897A]">$</span>
+                                              <span class="font-normal text-[16px] text-[#AFAFAF]">Per / month</span>
+                                          </div>
+                                      </div>
+                                      <div class="flex flex-col gap-[16px] pt-[20px]">
+                                          <p class="font-medium text-[16px] text-[#22343D]">10+ Operators</p>
+                                          <p class="font-medium text-[16px] text-[#22343D]">Notifications</p>
+                                          <p class="font-medium text-[16px] text-[#22343D]">Landing Pages</p>
+                                      </div>
+                                      <button class="w-[140px] h-[44px] bg-[#02897A] border-[1px] border-[#02897A] rounded-[8px] text-white mt-[38px] font-semibold text-[18px] mb-[32px]hover:border-[1px] border-[#02897A] hover:text-[#02897A] hover:bg-transparent transition-all duration-300">Order Now</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </section>
+
+          <section>
+            <div class="flex-col">
+                <h2 class="font-bold text-[34px] leading-[100%] text-[rgba(34, 52, 61, 1)] mb-[8px] text-rgba(2, 137, 122, 1) text-center ">What Clients Say</h2>      
+                <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[50px] text-rgba(2, 137, 122, 1) text-center justify-between items-center">Problems trying to resolve the conflict between 
+                    the two major realms of Classical physics: Newtonian mechanics </p>  
+            </div>
+            <div class="flex gap-[33px] text-center justify-center">
+                <div class=" flex flex-col w-[348px] h-[359px]">
+                    <img class="w-[327px] h-[236px] pb-[16px] " src="./images/star1 img.svg" alt="img">
+                    <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[12px]">Product helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal.</p>
+                        <div class="container flex"> 
+                        <img class="w-[50px] h-[50px] gap-[14px]" src="./images/Ellipse 2.png" alt="">
+                        <div class="flex-col">
+                         <strong class="font-semibold flex flex-col text-[16px] leading-[26px] text-#02897A mb-[12px] text-[#02897A]">Wahid Ari</strong>
+                         <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[50px] text-rgba(2, 137, 122, 1) text-center justify-between items-center">Designer
+
+                        </div>
+                        </div>
+                </div>
+                <div class=" flex flex-col w-[348px] h-[359px]">
+                    <img class="w-[327px] h-[236px] pb-[16px] " src="./images/star1 img.svg" alt="img">
+                    <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[12px]">Product helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal.</p>
+                        <div class="container flex"> 
+                        <img class="w-[50px] h-[50px] gap-[14px]" src="./images/Ellipse 2.png" alt="">
+                        <div class="flex-col">
+                         <strong class="font-semibold flex flex-col text-[16px] leading-[26px] text-#02897A mb-[12px] text-[#02897A]">Wahid Ari</strong>
+                         <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[50px] text-rgba(2, 137, 122, 1) text-center justify-between items-center">Designer
+
+                        </div>
+                        </div>
+                </div>
+                <div class=" flex flex-col w-[348px] h-[359px]">
+                    <img class="w-[327px] h-[236px] pb-[16px] " src="./images/star1 img.svg" alt="img">
+                    <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[12px]">Product helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal.</p>
+                        <div class="container flex"> 
+                        <img class="w-[50px] h-[50px] gap-[14px]" src="./images/Ellipse 2.png" alt="">
+                        <div class="flex-col">
+                         <strong class="font-semibold flex flex-col text-[16px] leading-[26px] text-[#02897A] mb-[12px] text-[#02897A]">Wahid Ari</strong>
+                         <p class=" text-[rgba(34,52,61,1)] font-normal text-[16px] leading-[26px] mb-[50px] text-[rgba(2, 137, 122, 1)] text-center justify-between items-center">Designer
+
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <div class="flex mx-auto justify-around bg-[#02897A] w-[968px] h-[345px] rounded-[8px] flex justify-between pt-[49px] pl-[51px] ">
+            <div class="flex flex-col gap-[10px]">
+              <h2 class="flex-col font-bold text-[32px] leading-[151%] text-[#FFFFFF] mb-[50px] text-[#FFFFFF] text-start w-[510px] pb-[70px]">Join 100 Compannies who boost their business with Product</h2>  
+              <button class="duration-300 w-[150px] h-[50px] px-[34px] py-[15px] hover:bg-transparent hover:text-[#FFFFFF]
+                hover:border-[#FFFFFF] rounded-[8px] border-[1px] border-#FFFFFF bg-[#FFFFFF] font-bold text-[16px] text-[#02897A] ">
+                Get This
+                </button>
+              </div>
+              <div class="w-[371px] h-[351px] flex items-center ">
+                <img src="./images/img.png" alt="">
+
+              </div>
+            </div>
+            </div>
+          </section>
+<footer>
+  <div class="containers w-[1109px] h-[246px] flex pt-[150px]">
+    <div class="flex-col gap-[161px]">
+      <img src="./img/logo img.svg" alt="logo img">
+      <div class="flex gap-[16px] pt-[25px]"> 
+      <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20.0161" r="20" fill="#EDFFFC"/>
+        <path d="M25 10.0161H15C12.2386 10.0161 10 12.2547 10 15.0161V25.0161C10 27.7775 12.2386 30.0161 15 30.0161H25C27.7614 30.0161 30 27.7775 30 25.0161V15.0161C30 12.2547 27.7614 10.0161 25 10.0161Z" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M24 19.3859C24.1234 20.2182 23.9812 21.0681 23.5937 21.8149C23.2062 22.5617 22.5931 23.1673 21.8416 23.5456C21.0901 23.9239 20.2384 24.0555 19.4077 23.9219C18.5771 23.7882 17.8097 23.396 17.2148 22.8011C16.6199 22.2062 16.2277 21.4388 16.094 20.6081C15.9604 19.7775 16.092 18.9258 16.4703 18.1743C16.8485 17.4228 17.4541 16.8097 18.2009 16.4222C18.9477 16.0347 19.7977 15.8925 20.63 16.0159C21.4789 16.1418 22.2648 16.5374 22.8716 17.1442C23.4785 17.7511 23.8741 18.537 24 19.3859Z" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M25.5 14.5161H25.51" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" fill="#EDFFFC"/>
+          <path d="M26 10H23C21.6739 10 20.4021 10.5268 19.4645 11.4645C18.5268 12.4021 18 13.6739 18 15V18H15V22H18V30H22V22H25L26 18H22V15C22 14.7348 22.1054 14.4804 22.2929 14.2929C22.4804 14.1054 22.7348 14 23 14H26V10Z" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="20" fill="#EDFFFC"/>
+            <path d="M31 11.0101C30.0424 11.6855 28.9821 12.2022 27.86 12.5401C27.2577 11.8476 26.4573 11.3567 25.567 11.134C24.6767 10.9112 23.7395 10.9673 22.8821 11.2945C22.0247 11.6218 21.2884 12.2045 20.773 12.9638C20.2575 13.7231 19.9877 14.6224 20 15.5401V16.5401C18.2426 16.5856 16.5013 16.1959 14.931 15.4055C13.3607 14.6151 12.0103 13.4487 11 12.0101C11 12.0101 7 21.0101 16 25.0101C13.9405 26.408 11.4872 27.109 9 27.0101C18 32.0101 29 27.0101 29 15.5101C28.9991 15.2315 28.9723 14.9537 28.92 14.6801C29.9406 13.6735 30.6608 12.4028 31 11.0101V11.0101Z" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>            
+      </div>
+
+    </div>
+    <div class="flex-col  pl-[161px] pr-[129px] mb-[87px]">
+      <strong class="font-medium text-[20px] pb-[15px] leading-[30px]">Resource</strong>
+      <p class=" font-normal text-16px leading-35px">About us</p>
+      <p class=" font-normal text-16px leading-35px">Blog</p>
+      <p class=" font-normal text-16px leading-35px">Contact</p>
+      <p class=" font-normal text-16px leading-35px">FAQ</p>
+    </div>
+    <div class="flex-col pr-[82px]">
+      <strong class="font-medium text-[20px] pb-[15px] leading-[30px] ">Legal Stuff</strong>
+      <p class=" font-normal text-16px leading-35px">Disclaimer</p>
+      <p class=" font-normal text-16px leading-35px">Financial</p>
+      <p class=" font-normal text-16px leading-35px">Privacy Policy</p>
+      <p class=" font-normal text-16px leading-35px">Terms of Service</p>
+    </div>
+    <div class="flex-col">
+    <strong class="font-medium text-[20px] pb-[34px] leading-[30px] ">knowing you're always on the best energy deal. </strong>
+   <form action="https://echo.htmlacademy.ru" method="">
+    <input class="shadow-gray-200" type="email" type="text" placeholder="sign up">
+  </form>
+  <button class="w-[131px] h-[39px] duration-300 px-[34px] py-[15px] hover:bg-transparent hover:text-[rgba(2,137,122,1)]
+hover:border-[rgba(2,137,122,1)] leading-100%  border-[1px] border-transparent bg-[rgba(2,137,122,1)] font-bold text-[16px] text-[rgba(255,255,255,1)] ">
+Sign up Now
+</button>
+</div>
+
+  </div>
+</footer>
+
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {}
+      }
+    }
+</script>
+</body>
+</html>
